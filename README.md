@@ -3,6 +3,8 @@ Perkenalkan saya dimas pujangga, dalam project ini saya mengerjakan tugas akhir 
 
 Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan dari projek ini adalah melakukan simple webscrapping untuk mendapatkan informasi. Saya juga akan memanfaatkan flask dashboard sederhana untuk menampilkan hasil scrap dan visualisasi yang saya buat.
 
+# Hasil Insight yang saya dapatkan dalam kasus ini dapat berbeda sewaktu-waktu dengan hasil data yang telah didapat dalam web tersebut....
+
 ## Dependencies
 
 - beautifulSoup4
