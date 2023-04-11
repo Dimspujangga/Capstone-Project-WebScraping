@@ -1,6 +1,7 @@
 # Web-Scrapping using Beautifulsoup
+Perkenalkan saya dimas pujangga, dalam project ini saya mengerjakan tugas akhir dalam Data Analytics Specialization di kelas Algoritma Data Science Academy School.
 
-Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan dari projek ini adalah melakukan simple webscrapping untuk mendapatkan informasi. Untuk step by step guide, Bapak Ibu dipersilahkan untuk membuka git saya [Click here](https://github.com/t3981-h/Webscrapping-with-BeautifulSoup "Webscrapping with Beautiful Soup"). Kita juga akan memanfaatkan flask dashboard sederhana untuk menampilkan hasil scrap dan visualisasi kita.
+Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan dari projek ini adalah melakukan simple webscrapping untuk mendapatkan informasi. Saya juga akan memanfaatkan flask dashboard sederhana untuk menampilkan hasil scrap dan visualisasi yang saya buat.
 
 ## Dependencies
 
@@ -8,12 +9,6 @@ Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Acade
 - pandas
 - flask
 - matplotlib
-
-Atau Bapak Ibu cukup menginstall requirements.txt dengan cara berikut
-
-```python
-pip install -r requirements.txt
-```
 
 ## Rubics
 
@@ -26,35 +21,7 @@ pip install -r requirements.txt
 
 ## What You Need to Do
 
-* Silahkan mencoba melakukan scraping soal di bawah menggunakan `beautiful soup` di notebook Bapak/Ibu terlebih dahulu.
-* Bapak/Ibu dapat men-clone repo ini.
-* Silahkan buka notebook template pada capstone ini dan isi sesuai dengan arahan yang ada. Pastikan Bapak/Ibu memberikan analisa yang dibutuhkan pada notebook tersebut.
-* File di repo ini adalah skeleton yang dapat digunakan untuk membuat flask dashboard sederhana.
-* Silahkan isi di bagian yang masih kosong.
-* Isi fungsi `scrap` dengan proses scraping yang sudah Bapak/Ibu lakukan di notebook. 
-
-```python
-table = soup.find(___)
-tr = table.find_all(___)
-```
-
-* Isi bagian ini untuk menyimpan hasil scrap yang Bapak/Ibu buat menjadi sebuah dataframe.
-
-```python
-df = pd.DataFrame(name of your tupple, columns = (name of the columns))
-```
-
-* Terakhir Bapak/Ibu dapat menggunakan fungsi `scrap` dengan cara mengisi bagian berikut dengan link web yang Bapak/Ibu scrap.
-
-```python
-df = scrap(___) #insert url here
-```
-
-* Bapak/Ibu juga dapat bermain dengan UI nya pada `index.html` yang dimana Bapak/Ibu dapat mengikuti comment yang ada untuk mengetahui bagian mana yang dapat diubah. 
-
-### The Final Mission
-
-Pada captsone kali ini, Bapak Ibu bisa memilih salah satu soal ini untuk dikerjakan.
+Pada captsone kali ini, saya memilih salah satu soal dibawah ini untuk dikerjakan.
 
 1. (Easy) Data Volume Penjualan Ethereum dari `https://www.coingecko.com/en/coins/ethereum/historical_data?start_date=2022-01-01&end_date=2023-03-30#panel`
 
@@ -73,4 +40,9 @@ Pada captsone kali ini, Bapak Ibu bisa memilih salah satu soal ini untuk dikerja
     * Buatlah plot dari jumlah pekerjaan berdasarkan lokasi.
 
 
-Happy learning! 
+Saya memilih soal yang ke-3 dengan tingkat kesulitan hard, karena menurut saya dalam kasus tersebut yaitu data pekerjaan di indonesia lebih dibutuhkan masyarakat kita pada umumnya, karena setelah usai dalam masa pandemi ini dan diingat banyaknya mahasiswa freshgraduate yang belum menemukan pekerjaannya di bidang data membutuhkan informasi mengenai data pekerjaan indonesia ini.
+
+Saya mencoba untuk melakukan insight yang ada dalam data pekerjaan tersebut dengan metode webscraping ini agar memudahkan masyarakat umum untuk menarik kesimpulan dengan insight yang saya dapat dan dapat melakukan analisis lebih lanjut terkait role pekerjaan apa saja yang banyak dibuka dan mempertimbangkan kembali lokasi pekerjaan yang akan mereka masuki.
+
+
+
